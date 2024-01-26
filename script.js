@@ -99,7 +99,7 @@ gsap.from(".card", {
     scrollTrigger: {
         trigger: ".card", 
         scroller: "body",
-        // markers: true,
+        // markers: false,
         start: "top 75%",
         end: "top 58%",
         scrub: 1

@@ -110,6 +110,31 @@ video {
     width: 40%;
 }
 
+#page1 #arrow {
+    height: 160px;
+    width: 160px;
+    background-color: transparent;
+    border: 2px solid #95c11e;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    left: -3%;
+    bottom: 0%;
+    transition: all ease 0.5s;
+}
+
+#page1 #arrow i {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+#page1 #arrow:hover {
+    scale: 0.4;
+    background-color: #95c11e;
+}
+
 #page2, #page3 {
     height: 100vh;
     width: 100%;
